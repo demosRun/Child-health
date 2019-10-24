@@ -1,0 +1,112 @@
+<template lang="pug">
+.home
+  temple(_name="titleBar" _src="./src/module/titleBar.owo" _logo="@|logo.png|")
+  .main-title-box
+    img.main-img(src="@|main.jpg|")
+    .info-box
+      .title
+        h1 人民幼儿健康
+        h2 营养
+      p 人民幼儿健康人民幼儿健康人民幼儿人民幼儿健康人民幼儿健康
+      .button
+        a(href="#") 点击查看
+  //- 主要内容区域
+  
+  //- 第一个卡片
+  .box-1.box
+    .w1200
+      temple(_name="imageTitleBar" _src="./src/module/imageTitleBar.owo" _image="@|title-1.png|")
+      .card-box.clear
+        temple(_name="card" _src="./src/module/card.owo", _image="@|show-1.jpg|")
+        temple(_name="card" _src="./src/module/card.owo", _image="@|show-1.jpg|")
+        temple(_name="card" _src="./src/module/card.owo", _image="@|show-1.jpg|")
+        temple(_name="card" _src="./src/module/card.owo", _image="@|show-1.jpg|")
+      .center-box
+        a.more-button(href="#" o-hover="grow-shadow") 阅读更多
+  .box-2.box
+    .w1200
+      temple(_name="imageTitleBar" _src="./src/module/imageTitleBar.owo" _image="@|title-2.png|")
+
+</template>
+
+
+<style lang="less">
+.main-title-box {
+  position: relative;
+}
+.main-img {
+  width: 100%;
+  display: block;
+}
+.info-box {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  .title {
+    line-height: 40px;
+    color: #333333;
+    font-family: "Microsoft YaHei";
+  }
+  h1, h2 {
+    display: inline;
+  }
+  h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 10px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 18px;
+    width: 300px;
+    line-height: 30px;
+    color: #969696;
+    margin: 25px 0;
+  }
+  .button {
+    background-color: #ff534f;
+    color: white;
+    text-align: center;
+    width: 120px;
+    line-height: 40px;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+}
+.img-title-bar {
+  margin: 40px 0;
+}
+.w1200 {
+  width: 1200px;
+  margin: 0 auto;
+}
+.box-1 {
+  background-color: white;
+  padding: 50px 0;
+}
+.card-box {
+  .card {
+    float: left;
+    margin: 0 10px;
+  }
+}
+.center-box {
+  text-align: center;
+}
+.more-button {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  background-color: #ff5149;
+  margin-top: 20px;
+  border-radius: 5px;
+  color: white;
+  line-height: 40px;
+  font-size: 16px;
+}
+.card-box {
+  margin-bottom: 20px;
+}
+</style>

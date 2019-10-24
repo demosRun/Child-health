@@ -1,0 +1,149 @@
+[2019-10-24T17:00:37.764] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-10-24T17:00:37.767] [INFO] default - 程序运行目录: D:\work\Child health
+[2019-10-24T17:00:37.767] [INFO] default - 首次启动!
+[2019-10-24T17:00:37.767] [INFO] default - 生成版本号: wxokwf6t39g
+[2019-10-24T17:00:37.772] [INFO] default - 清理资源文件夹: D:\work\Child health\dist\static
+[2019-10-24T17:00:37.773] [INFO] default - 文件夹不存在: D:\work\Child health\dist\static
+[2019-10-24T17:00:37.773] [INFO] default - 创建文件夹: D:\work\Child health\dist\static
+[2019-10-24T17:00:37.773] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-10-24T17:00:37.773] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-10-24T17:00:37.773] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-10-24T17:00:37.775] [INFO] default - 开始处理模块: home
+[2019-10-24T17:00:38.132] [INFO] default - 开始处理模块: titleBar
+[2019-10-24T17:00:38.145] [DEBUG] default - 缓存模板: titleBar./src/module/titleBar.owo
+[2019-10-24T17:00:38.191] [DEBUG] default - 模块titleBar处理用时: 59 毫秒!
+[2019-10-24T17:00:38.192] [INFO] default - 开始处理模块: imageTitleBar
+[2019-10-24T17:00:38.196] [DEBUG] default - 缓存模板: imageTitleBar./src/module/imageTitleBar.owo
+[2019-10-24T17:00:38.198] [DEBUG] default - 模块imageTitleBar处理用时: 6 毫秒!
+[2019-10-24T17:00:38.198] [INFO] default - 开始处理模块: card
+[2019-10-24T17:00:38.204] [DEBUG] default - 缓存模板: card./src/module/card.owo
+[2019-10-24T17:00:38.210] [DEBUG] default - 模块card处理用时: 12 毫秒!
+[2019-10-24T17:00:38.211] [DEBUG] default - 模块 card 因名称重复被重命名为 card-1
+[2019-10-24T17:00:38.211] [INFO] default - 开始处理模块: card-1
+[2019-10-24T17:00:38.211] [DEBUG] default - 使用缓存返回模板: card-1
+[2019-10-24T17:00:38.212] [DEBUG] default - 模块card处理用时: 1 毫秒!
+[2019-10-24T17:00:38.212] [DEBUG] default - 模块 card 因名称重复被重命名为 card-2
+[2019-10-24T17:00:38.212] [INFO] default - 开始处理模块: card-2
+[2019-10-24T17:00:38.212] [DEBUG] default - 使用缓存返回模板: card-2
+[2019-10-24T17:00:38.213] [DEBUG] default - 模块card处理用时: 1 毫秒!
+[2019-10-24T17:00:38.213] [DEBUG] default - 模块 card 因名称重复被重命名为 card-3
+[2019-10-24T17:00:38.213] [INFO] default - 开始处理模块: card-3
+[2019-10-24T17:00:38.213] [DEBUG] default - 使用缓存返回模板: card-3
+[2019-10-24T17:00:38.214] [DEBUG] default - 模块card处理用时: 1 毫秒!
+[2019-10-24T17:00:38.215] [DEBUG] default - 模块 imageTitleBar 因名称重复被重命名为 imageTitleBar-1
+[2019-10-24T17:00:38.215] [INFO] default - 开始处理模块: imageTitleBar-1
+[2019-10-24T17:00:38.218] [DEBUG] default - 智能跳过打包imageTitleBar./src/module/imageTitleBar.owo的重复样式!
+[2019-10-24T17:00:38.218] [DEBUG] default - 模块imageTitleBar处理用时: 3 毫秒!
+[2019-10-24T17:00:38.220] [DEBUG] default - 缓存模板: home./src/page/home.page
+[2019-10-24T17:00:38.224] [DEBUG] default - 页面home处理用时: 450 毫秒!
+[2019-10-24T17:00:38.226] [INFO] default - 文件夹不存在: D:/work/Child health/dist/static/resource
+[2019-10-24T17:00:38.226] [INFO] default - 创建文件夹: D:/work/Child health/dist/static/resource
+[2019-10-24T17:00:38.226] [DEBUG] default - css中的资源处理完毕!
+[2019-10-24T17:00:38.226] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-10-24T17:00:38.271] [INFO] default - 文件夹不存在: D:\work\Child health\dist\static\css
+[2019-10-24T17:00:38.271] [INFO] default - 创建文件夹: D:\work\Child health\dist\static\css
+[2019-10-24T17:00:38.271] [INFO] default - 开始处理附属css中的资源
+[2019-10-24T17:00:38.272] [INFO] default - 附属css中的资源处理完毕!
+[2019-10-24T17:00:38.272] [INFO] default - 处理字体: {}
+[2019-10-24T17:00:38.413] [INFO] default - 使用postcss处理完毕! 用时: 187 毫秒
+[2019-10-24T17:00:38.414] [INFO] default - 正在处理script!
+[2019-10-24T17:00:38.415] [INFO] default - 工程中只有一个页面!
+[2019-10-24T17:00:38.416] [INFO] default - 文件夹不存在: D:\work\Child health\dist\static\js
+[2019-10-24T17:00:38.416] [INFO] default - 创建文件夹: D:\work\Child health\dist\static\js
+[2019-10-24T17:00:38.416] [DEBUG] default - 选择将js合并到html中!
+[2019-10-24T17:00:38.897] [INFO] default - js中的资源处理完毕!
+[2019-10-24T17:00:38.897] [INFO] default - 读取文件: C:\Users\PG\Documents\GitHub\PG\core\debug\autoReload.js
+[2019-10-24T17:00:38.897] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-10-24T17:00:38.898] [DEBUG] default - 外部脚本数量: 3
+[2019-10-24T17:00:38.898] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-10-24T17:00:38.898] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-10-24T17:00:38.898] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-10-24T17:00:38.898] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-10-24T17:00:38.898] [DEBUG] default - 处理脚本: main
+[2019-10-24T17:00:38.898] [INFO] default - 读取文件: D:\work\Child health\src\main.js
+[2019-10-24T17:00:38.898] [DEBUG] default - 输出scriptData
+[2019-10-24T17:00:38.898] [DEBUG] default - 准备输出html!
+[2019-10-24T17:00:38.899] [DEBUG] default - 忽略文件: D:/work/Child health/src/resource/show-1.jpg
+[2019-10-24T17:00:38.899] [DEBUG] default - 忽略文件: D:/work/Child health/src/resource/show-1.jpg
+[2019-10-24T17:00:38.899] [DEBUG] default - 忽略文件: D:/work/Child health/src/resource/show-1.jpg
+[2019-10-24T17:00:38.900] [DEBUG] default - 处理资源:  [ 'D:/work/Child health/src/resource/logo.png',
+  'D:/work/Child health/src/resource/main.jpg',
+  'D:/work/Child health/src/resource/title-1.png',
+  'D:/work/Child health/src/resource/show-1.jpg',
+  'D:/work/Child health/src/resource/title-2.png' ]
+[2019-10-24T17:00:38.900] [DEBUG] default - 资源目录:  D:/work/Child health/dist/static/resource
+[2019-10-24T17:00:38.903] [INFO] default - 编译结束!
+[2019-10-24T17:00:38.903] [INFO] default - 发送重新页面需要刷新命令!
+[2019-10-24T17:00:38.917] [INFO] default - 主要逻辑文件写出成功!
+[2019-10-24T17:00:38.917] [INFO] default - 读取成功: D:\work\Child health\src\main.css
+[2019-10-24T17:00:38.918] [INFO] default - 读取成功: C:\Users\PG\Documents\GitHub\PG\core\debug\autoReload.js
+[2019-10-24T17:00:38.918] [INFO] default - 读取成功: D:\work\Child health\src\main.js
+[2019-10-24T17:00:38.934] [INFO] default - 写入文件: D:\work\Child health\dist\static\js\autoReload.js
+[2019-10-24T17:00:38.934] [INFO] default - 写入文件: D:\work\Child health\dist\static\css\main.css
+[2019-10-24T17:00:38.938] [INFO] default - 写入文件: D:\work\Child health\dist\static\js\main.js
+[2019-10-24T17:01:05.630] [INFO] default - file change: D:\work\Child health\src\page\home.page
+[2019-10-24T17:01:05.630] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-10-24T17:01:05.630] [INFO] default - 程序运行目录: D:\work\Child health
+[2019-10-24T17:01:05.630] [INFO] default - 刷新模式,变化目录: D:\work\Child health\src\page\home.page
+[2019-10-24T17:01:05.631] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-10-24T17:01:05.631] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-10-24T17:01:05.631] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-10-24T17:01:05.631] [INFO] default - 开始处理模块: home
+[2019-10-24T17:01:05.654] [INFO] default - 开始处理模块: titleBar
+[2019-10-24T17:01:05.666] [DEBUG] default - 缓存模板: titleBar./src/module/titleBar.owo
+[2019-10-24T17:01:05.670] [DEBUG] default - 模块titleBar处理用时: 16 毫秒!
+[2019-10-24T17:01:05.672] [INFO] default - 开始处理模块: imageTitleBar
+[2019-10-24T17:01:05.676] [DEBUG] default - 缓存模板: imageTitleBar./src/module/imageTitleBar.owo
+[2019-10-24T17:01:05.677] [DEBUG] default - 模块imageTitleBar处理用时: 5 毫秒!
+[2019-10-24T17:01:05.677] [INFO] default - 开始处理模块: card
+[2019-10-24T17:01:05.684] [DEBUG] default - 缓存模板: card./src/module/card.owo
+[2019-10-24T17:01:05.688] [DEBUG] default - 模块card处理用时: 11 毫秒!
+[2019-10-24T17:01:05.688] [DEBUG] default - 模块 card 因名称重复被重命名为 card-1
+[2019-10-24T17:01:05.688] [INFO] default - 开始处理模块: card-1
+[2019-10-24T17:01:05.688] [DEBUG] default - 使用缓存返回模板: card-1
+[2019-10-24T17:01:05.689] [DEBUG] default - 模块card处理用时: 1 毫秒!
+[2019-10-24T17:01:05.689] [DEBUG] default - 模块 card 因名称重复被重命名为 card-2
+[2019-10-24T17:01:05.689] [INFO] default - 开始处理模块: card-2
+[2019-10-24T17:01:05.689] [DEBUG] default - 使用缓存返回模板: card-2
+[2019-10-24T17:01:05.691] [DEBUG] default - 模块card处理用时: 2 毫秒!
+[2019-10-24T17:01:05.691] [DEBUG] default - 模块 card 因名称重复被重命名为 card-3
+[2019-10-24T17:01:05.691] [INFO] default - 开始处理模块: card-3
+[2019-10-24T17:01:05.691] [DEBUG] default - 使用缓存返回模板: card-3
+[2019-10-24T17:01:05.692] [DEBUG] default - 模块card处理用时: 1 毫秒!
+[2019-10-24T17:01:05.693] [DEBUG] default - 模块 imageTitleBar 因名称重复被重命名为 imageTitleBar-1
+[2019-10-24T17:01:05.693] [INFO] default - 开始处理模块: imageTitleBar-1
+[2019-10-24T17:01:05.696] [DEBUG] default - 智能跳过打包imageTitleBar./src/module/imageTitleBar.owo的重复样式!
+[2019-10-24T17:01:05.697] [DEBUG] default - 模块imageTitleBar处理用时: 4 毫秒!
+[2019-10-24T17:01:05.697] [DEBUG] default - 缓存模板: home./src/page/home.page
+[2019-10-24T17:01:05.701] [DEBUG] default - 页面home处理用时: 70 毫秒!
+[2019-10-24T17:01:05.702] [DEBUG] default - css中的资源处理完毕!
+[2019-10-24T17:01:05.702] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-10-24T17:01:05.709] [INFO] default - 处理字体: {}
+[2019-10-24T17:01:05.710] [INFO] default - 使用postcss处理完毕! 用时: 8 毫秒
+[2019-10-24T17:01:05.710] [INFO] default - 正在处理script!
+[2019-10-24T17:01:05.711] [INFO] default - 工程中只有一个页面!
+[2019-10-24T17:01:05.712] [DEBUG] default - 选择将js合并到html中!
+[2019-10-24T17:01:05.725] [INFO] default - js中的资源处理完毕!
+[2019-10-24T17:01:05.725] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-10-24T17:01:05.725] [DEBUG] default - 外部脚本数量: 3
+[2019-10-24T17:01:05.725] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-10-24T17:01:05.726] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-10-24T17:01:05.726] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-10-24T17:01:05.726] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-10-24T17:01:05.726] [DEBUG] default - 处理脚本: main
+[2019-10-24T17:01:05.726] [INFO] default - 读取文件: D:\work\Child health\src\main.js
+[2019-10-24T17:01:05.726] [DEBUG] default - 输出scriptData
+[2019-10-24T17:01:05.726] [DEBUG] default - 准备输出html!
+[2019-10-24T17:01:05.726] [DEBUG] default - 忽略文件: D:/work/Child health/src/resource/logo.png
+[2019-10-24T17:01:05.726] [DEBUG] default - 忽略文件: D:/work/Child health/src/resource/main.jpg
+[2019-10-24T17:01:05.726] [DEBUG] default - 忽略文件: D:/work/Child health/src/resource/title-1.png
+[2019-10-24T17:01:05.726] [DEBUG] default - 忽略文件: D:/work/Child health/src/resource/show-1.jpg
+[2019-10-24T17:01:05.726] [DEBUG] default - 忽略文件: D:/work/Child health/src/resource/show-1.jpg
+[2019-10-24T17:01:05.726] [DEBUG] default - 忽略文件: D:/work/Child health/src/resource/show-1.jpg
+[2019-10-24T17:01:05.726] [DEBUG] default - 忽略文件: D:/work/Child health/src/resource/show-1.jpg
+[2019-10-24T17:01:05.726] [DEBUG] default - 忽略文件: D:/work/Child health/src/resource/title-2.png
+[2019-10-24T17:01:05.727] [INFO] default - 编译结束!
+[2019-10-24T17:01:05.728] [INFO] default - 发送重新页面需要刷新命令!
+[2019-10-24T17:01:05.729] [INFO] default - 主要逻辑文件写出成功!
+[2019-10-24T17:01:05.729] [INFO] default - 读取成功: D:\work\Child health\src\main.js
+[2019-10-24T17:01:05.730] [INFO] default - 写入文件: D:\work\Child health\dist\static\js\main.js
