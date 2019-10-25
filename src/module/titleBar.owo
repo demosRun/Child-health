@@ -1,8 +1,9 @@
 <template lang="pug">
 .title-bar
-  .w1000.clear
+  .w1200.clear
     .left
-      img(src="{{prop._logo}}")
+      a(href="#")
+        img(src="{{prop._logo}}")
     .right
       span
         a(href="#") 政策解读

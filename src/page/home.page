@@ -8,12 +8,12 @@
         h1 人民幼儿健康
         h2 营养
       p 人民幼儿健康人民幼儿健康人民幼儿人民幼儿健康人民幼儿健康
-      .button
+      .button(o-hover="grow-shadow")
         a(href="#") 点击查看
   //- 主要内容区域
   
   //- 第一个卡片
-  .box-1.box
+  .box-1.box.bg-white
     .w1200
       temple(_name="imageTitleBar" _src="./src/module/imageTitleBar.owo" _image="@|title-1.png|")
       .card-box.clear
@@ -26,7 +26,104 @@
   .box-2.box
     .w1200
       temple(_name="imageTitleBar" _src="./src/module/imageTitleBar.owo" _image="@|title-2.png|")
-
+      .card-box-2.clear
+        .left.fl
+          h2 加强儿童早期发展服务
+          p.text 专栏将从政策解读，家园共育等多角度，全方位康第一责任人的理念，提高儿童家长健康素素素
+          a.more(href="#") 阅读更多>
+          .card-list
+            ul
+              li
+                span 加强儿童早期发展服务儿童早期发展服···
+                .icon
+              li
+                span 加强儿童早期发展服务儿童早期发展服···
+                .icon
+              li
+                span 加强儿童早期发展服务儿童早期发展服···
+                .icon
+            .bottom-bar
+              a.more(href="#") 阅读更多>
+        .right.fl
+          temple(_name="swiperBox"  _src="https://owo.ink/public/92053cd6bede88e0fcbebe085d3a3a49.page")
+  .box-3.box.comment-box.bg-white
+    .w1200
+      temple(_name="imageTitleBar" _src="./src/module/imageTitleBar.owo" _image="@|title-3.png|")
+      ul.clear
+        li
+          .left.fl
+            img(src="@|show-2.png|")
+          .right.fl
+            h2 豆腐蟹黄羹
+            p 专栏将从政策解读，家园共育等多角度，全方位为···
+            .bottom-bar
+              a.abulous.item 60
+              a.reply.item 14条回复
+            .enter(o-hover="wobble-vertical")
+              a(href="#")
+        li
+          .left.fl
+            img(src="@|show-2.png|")
+          .right.fl
+            h2 豆腐蟹黄羹
+            p 专栏将从政策解读，家园共育等多角度，全方位为···
+            .bottom-bar
+              a.abulous.item 60
+              a.reply.item 14条回复
+            .enter(o-hover="wobble-vertical")
+              a(href="#")
+        li
+          .left.fl
+            img(src="@|show-2.png|")
+          .right.fl
+            h2 豆腐蟹黄羹
+            p 专栏将从政策解读，家园共育等多角度，全方位为···
+            .bottom-bar
+              a.abulous.item 60
+              a.reply.item 14条回复
+            .enter(o-hover="wobble-vertical")
+              a(href="#")
+        li
+          .left.fl
+            img(src="@|show-2.png|")
+          .right.fl
+            h2 豆腐蟹黄羹
+            p 专栏将从政策解读，家园共育等多角度，全方位为···
+            .bottom-bar
+              a.abulous.item 60
+              a.reply.item 14条回复
+            .enter(o-hover="wobble-vertical")
+              a(href="#")
+      .center-box
+        a.more-button(href="#" o-hover="grow-shadow") 阅读更多
+  .box-4.box
+    .w1200
+      temple(_name="imageTitleBar" _src="./src/module/imageTitleBar.owo" _image="@|title-4.png|")
+      .big-image-box.clear
+        .left.fl
+          .top(o-hover="float")
+            a(href="#")
+              img(src="@|show-3.jpg|")
+              .info 为儿童营养健康保驾护航
+          .bottom.clear
+            .bottom-item.fl(o-hover="float")
+              a(href="#")
+                img(src="@|show-4.jpg|")
+                .info 为儿童营养健康保驾护航
+            .bottom-item.fl(o-hover="float")
+              a(href="#")
+                img(src="@|show-5.jpg|")
+                .info 为儿童营养健康保驾护航
+        .right.fl(o-hover="float")
+          a(href="#")
+            img(src="@|show-6.jpg|")
+            .info 为儿童营养健康保驾护航
+  .page-bottom-bar
+    .w1200.clear
+      .left 人民儿童营养
+      .right 012-356788888
+  //- 版权信息
+  p.mt30 人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用<br>Copyright © 1997-2019 by www.people.com.cn. all rights reserved
 </template>
 
 
@@ -40,8 +137,10 @@
 }
 .info-box {
   position: absolute;
-  left: 10%;
+  left: 20%;
+  right: 0%;
   top: 10%;
+  margin: 0 auto;
   .title {
     line-height: 40px;
     color: #333333;
@@ -76,15 +175,18 @@
   }
 }
 .img-title-bar {
-  margin: 40px 0;
+  padding-bottom: 80px;
 }
 .w1200 {
   width: 1200px;
   margin: 0 auto;
 }
-.box-1 {
+.box {
+  padding-bottom: 50px;
+  background-color: #f8f4f3;
+}
+.bg-white {
   background-color: white;
-  padding: 50px 0;
 }
 .card-box {
   .card {
@@ -105,8 +207,223 @@
   color: white;
   line-height: 40px;
   font-size: 16px;
+  font-weight: bold;
+  font-family: "Microsoft YaHei";
 }
 .card-box {
   margin-bottom: 20px;
+}
+.fl {
+  float: left;
+}
+.card-box-2 {
+  .fl {
+    height: 460px;
+  }
+  .left {
+    width: 600px;
+  }
+  .right {
+    width: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+    img, a {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  h2 {
+    font-size: 30px;
+    color: #333333;
+    line-height: 50px;
+    padding-bottom: 10px;
+  }
+  .more {
+    color: #ff544d;
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .text {
+    font-size: 22px;
+    line-height: 28px;
+    width: 420px;
+    margin: 25px 0;
+    color: #858585;
+  }
+}
+.card-list {
+  margin-top: 30px;
+  background-color: white;
+  width: 500px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 3px 1px 4px #ccc;
+  li {
+    line-height: 46px;
+    color: #333333;
+    font-size: 16px;
+    border-bottom: 1px solid #ece0e0;
+    font-weight: bold;
+    padding: 0 10px;
+  }
+  .bottom-bar {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+.comment-box {
+  li {
+    width: 580px;
+    height: 240px;
+    background-color: white;
+    box-shadow: 2px 3px 7px #ccc;
+    position: relative;
+    float: left;
+    margin: 10px;
+  }
+  li:after {
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+  }
+  .left {
+    width: 260px;
+    height: 240px;
+    overflow: hidden;
+    img, a {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  .right {
+    width: 280px;
+    height: 200px;
+    margin: 20px;
+  }
+  h2 {
+    line-height: 40px;
+    font-size: 22px;
+    color: #333333;
+  }
+  p {
+    font-size: 20px;
+    color: #858585;
+    line-height: 30px;
+    margin: 3px 0;
+    height: 120px;
+  }
+  .bottom-bar {
+    line-height: 30px;
+    .item {
+      display: inline-block;
+      color: #ff544d;
+      font-size: 18px;
+      margin-right: 30px;
+      padding-left: 30px;
+      background-repeat: no-repeat;
+      background-position: center left;
+    }
+    .abulous {
+      background-image: url('@|abulous.png|');
+    }
+    .reply {
+      background-image: url('@|reply.png|');
+    }
+  }
+  .enter {
+    display: block;
+    width: 97px;
+    height: 46px;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    background-image: url('@|enter.png|');
+    a {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+.box-4 {
+  background-color: #f7f7f7;
+}
+.big-image-box {
+  a, img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .left {
+    width: 675px;
+    margin-right: 35px;
+  }
+  .right {
+    width: 490px;
+    height: 615px;
+    position: relative;
+    box-shadow: 1px 3px 10px #a9a3a3;
+  }
+  .top {
+    width: 675px;
+    height: 280px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 1px 3px 10px #a9a3a3;
+  }
+  .bottom {
+    margin-top: 35px;
+    .bottom-item {
+      width: 320px;
+      height: 300px;
+      overflow: hidden;
+      margin-right: 35px;
+      position: relative;
+      box-shadow: 1px 3px 10px #a9a3a3;
+    }
+    .bottom-item:last-child {
+      margin-right: 0;
+    }
+  }
+  .info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    line-height: 40px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+  }
+}
+.page-bottom-bar {
+  height: 110px;
+  color: white;
+  font-size: 28px;
+  line-height: 110px;
+  background-color: #ff645d;
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+}
+.mt30 {
+  display: block;
+  text-align: center;
+  background-color: #ff645d;
+  color: white;
+  line-height: 30px;
+  font-size: 14px;
+  padding: 30px 0;
+}
+.box {
+  padding-top: 60px;
 }
 </style>

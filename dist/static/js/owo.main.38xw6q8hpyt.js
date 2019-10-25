@@ -1,4 +1,50 @@
-// Thu Oct 24 2019 17:01:05 GMT+0800 (GMT+08:00)
+// Fri Oct 25 2019 14:42:36 GMT+0800 (GMT+08:00)
+
+// 存储页面基本信息
+var owo = {
+  // 手机入口
+  phoneEnter: "null",
+  // 全局方法变量
+  tool: {},
+  // 框架状态变量
+  state: {}
+};
+/*
+  存储每个页面的函数
+  键名：页面名称
+  键值：方法列表
+*/
+
+owo.script = {
+  "home": {
+    "template": {
+      "swiperBox": {
+        "created": function created() {
+          // 轮播图展示区域swiper
+          setTimeout(function () {
+            new Swiper(owo.query('.swiper-container')[0], {
+              pagination: owo.query('.pagination')[0],
+              autoplay: 3000,
+              paginationClickable: true
+            });
+          }, 0);
+        }
+      }
+    }
+  },
+  "swiperBox": {
+    "created": function created() {
+      // 轮播图展示区域swiper
+      setTimeout(function () {
+        new Swiper(owo.query('.swiper-container')[0], {
+          pagination: owo.query('.pagination')[0],
+          autoplay: 3000,
+          paginationClickable: true
+        });
+      }, 0);
+    }
+  }
+};
 
 /* 方法合集 */
 var _owo = {
