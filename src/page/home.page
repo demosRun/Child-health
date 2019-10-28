@@ -22,7 +22,8 @@
         temple(_name="card" _src="./src/module/card.owo", _image="@|show-1.jpg|")
         temple(_name="card" _src="./src/module/card.owo", _image="@|show-1.jpg|")
       .center-box
-        a.more-button(href="#" o-hover="grow-shadow") 阅读更多
+        span.more-button(o-hover="grow-shadow")
+          a(href="#") 阅读更多
   .box-2.box
     .w1200
       temple(_name="imageTitleBar" _src="./src/module/imageTitleBar.owo" _image="@|title-2.png|")
@@ -30,20 +31,25 @@
         .left.fl
           h2 加强儿童早期发展服务
           p.text 专栏将从政策解读，家园共育等多角度，全方位康第一责任人的理念，提高儿童家长健康素素素
-          a.more(href="#") 阅读更多>
+          span.more
+            a(href="#") 阅读更多>
           .card-list
             ul
               li
-                span 加强儿童早期发展服务儿童早期发展服···
-                .icon
+                a(href="#")
+                  span 加强儿童早期发展服务儿童早期发展服···
+                  .icon
               li
-                span 加强儿童早期发展服务儿童早期发展服···
-                .icon
+                a(href="#")
+                  span 加强儿童早期发展服务儿童早期发展服···
+                  .icon
               li
-                span 加强儿童早期发展服务儿童早期发展服···
-                .icon
+                a(href="#")
+                  span 加强儿童早期发展服务儿童早期发展服···
+                  .icon
             .bottom-bar
-              a.more(href="#") 阅读更多>
+              span.more
+                a(href="#") 阅读更多>
         .right.fl
           temple(_name="swiperBox"  _src="https://owo.ink/public/92053cd6bede88e0fcbebe085d3a3a49.page")
   .box-3.box.comment-box.bg-white
@@ -52,50 +58,58 @@
       ul.clear
         li
           .left.fl
-            img(src="@|show-2.png|")
+            img(src="@|show-2.png|" width="260" height="240")
           .right.fl
             h2 豆腐蟹黄羹
             p 专栏将从政策解读，家园共育等多角度，全方位为···
             .bottom-bar
-              a.abulous.item 60
-              a.reply.item 14条回复
+              span.abulous.item
+                a(href="#") 60
+              span.reply.item
+                a(href="#") 14条回复
             .enter(o-hover="wobble-vertical")
               a(href="#")
         li
           .left.fl
-            img(src="@|show-2.png|")
+            img(src="@|show-2.png|" width="260" height="240")
           .right.fl
             h2 豆腐蟹黄羹
             p 专栏将从政策解读，家园共育等多角度，全方位为···
             .bottom-bar
-              a.abulous.item 60
-              a.reply.item 14条回复
+              span.abulous.item
+                a(href="#") 60
+              span.reply.item
+                a(href="#") 14条回复
             .enter(o-hover="wobble-vertical")
               a(href="#")
         li
           .left.fl
-            img(src="@|show-2.png|")
+            img(src="@|show-2.png|" width="260" height="240")
           .right.fl
             h2 豆腐蟹黄羹
             p 专栏将从政策解读，家园共育等多角度，全方位为···
             .bottom-bar
-              a.abulous.item 60
-              a.reply.item 14条回复
+              span.abulous.item
+                a(href="#") 60
+              span.reply.item
+                a(href="#") 14条回复
             .enter(o-hover="wobble-vertical")
               a(href="#")
         li
           .left.fl
-            img(src="@|show-2.png|")
+            img(src="@|show-2.png|" width="260" height="240")
           .right.fl
             h2 豆腐蟹黄羹
             p 专栏将从政策解读，家园共育等多角度，全方位为···
             .bottom-bar
-              a.abulous.item 60
-              a.reply.item 14条回复
+              span.abulous.item
+                a(href="#") 60
+              span.reply.item
+                a(href="#") 14条回复
             .enter(o-hover="wobble-vertical")
               a(href="#")
-      .center-box
-        a.more-button(href="#" o-hover="grow-shadow") 阅读更多
+      .center-box(o-hover="grow-shadow")
+        a(href="#") 阅读更多
   .box-4.box
     .w1200
       temple(_name="imageTitleBar" _src="./src/module/imageTitleBar.owo" _image="@|title-4.png|")
@@ -103,20 +117,20 @@
         .left.fl
           .top(o-hover="float")
             a(href="#")
-              img(src="@|show-3.jpg|")
+              img(src="@|show-3.jpg|" width="675" height="280")
               .info 为儿童营养健康保驾护航
           .bottom.clear
             .bottom-item.fl(o-hover="float")
               a(href="#")
-                img(src="@|show-4.jpg|")
+                img(src="@|show-4.jpg|" width="320" height="300")
                 .info 为儿童营养健康保驾护航
             .bottom-item.fl(o-hover="float")
               a(href="#")
-                img(src="@|show-5.jpg|")
+                img(src="@|show-5.jpg|" width="320" height="300")
                 .info 为儿童营养健康保驾护航
         .right.fl(o-hover="float")
           a(href="#")
-            img(src="@|show-6.jpg|")
+            img(src="@|show-6.jpg|" width="490" height="615")
             .info 为儿童营养健康保驾护航
   .page-bottom-bar
     .w1200.clear
@@ -260,6 +274,7 @@
   padding: 10px;
   border-radius: 5px;
   box-shadow: 3px 1px 4px #ccc;
+  overflow: hidden;
   li {
     line-height: 46px;
     color: #333333;

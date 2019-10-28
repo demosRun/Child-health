@@ -4,7 +4,7 @@
     .swiper-wrapper
       .swiper-slide(:for="item in data._swiperBoxList")
         a(href="#")
-          img(src="{{item.src}}" width="600")
+          img(src="{{item.src}}" width="600" height="460")
     .pagination
 </template>
 

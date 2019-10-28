@@ -1,7 +1,7 @@
 <template lang="pug">
 .card(o-hover="grow")
   a(href="#")
-    img(src="{{prop._image}}")
+    img(src="{{prop._image}}" width="280" height="230")
     h2 构建健康科普知识发布和传播机制医疗卫生机···
     p 鼓励各级电台电视台和其他媒体开办优质健康科普节目
 </template>

@@ -452,6 +452,7 @@ li {
   padding: 10px;
   border-radius: 5px;
   box-shadow: 3px 1px 4px #ccc;
+  overflow: hidden;
 }
 
 .home .card-list li {
